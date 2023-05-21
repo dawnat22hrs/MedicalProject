@@ -1,0 +1,44 @@
+.sidebar {
+  min-width: 82px;
+  height: calc(100vh - 90px);
+  background-color: white;
+
+
+}
+
+.menuList{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+
+}
+
+.menuItem {
+  height: 66px;
+  width: 82px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.book {
+  width: 30px;
+  height: 30px;
+  background-image: url("./assets/book.svg");
+
+}
+.calendar {
+  width: 30px;
+  height: 30px;
+  background-image: url("./assets/calendar.svg");
+}
+
+.otherMenu {
+
+}
